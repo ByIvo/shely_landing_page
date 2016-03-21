@@ -25,3 +25,5 @@ gem "rack-contrib"
 
 gem 'bootstrap-sass', '~> 3.3.3'
 #To deploy on github
+gem 'rake'
+gem "middleman-deploy"
