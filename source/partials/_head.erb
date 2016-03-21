@@ -1,0 +1,38 @@
+<head>
+  <%= stylesheet_link_tag "normalize", "bootstrap","font-awesome","application", "animate", "owl.carousel"%>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag "jquery", "fastclick", "owl.carousel.min", "all" %>
+  <script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+
+  <meta name="description" content="<%= current_page.data.description || 'Seu Salão a um toque de distância.' %>">
+  <meta name="author" content="Wite">
+  <meta name="keywords" content="sistema de salão, aplicativo salão, busca salão, salão, salão web, app salão, salão de beleza, make up">
+  <meta content="1 day" name="revisit-after">
+  <meta content="all" name="Robots">
+  <meta content="General" name="rating">
+  <meta content="pt-br" name="language">
+
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+  <!--OPEN GRAPH META TAGS-->
+  <meta property="og:title" content="Shelly - Seu Salão a um toque de distância"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  <meta property="og:description" content="<%= current_page.data.description || 'Seu Salão a um toque de distância.' %>"/>
+
+  <!--twitter cards-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="sistemaacademias.com.br">
+  <meta name="twitter:title" content="Shelly - Seu Salão a um toque de distância">
+  <meta name="twitter:description" content="<%= current_page.data.description || 'Seu Salão a um toque de distância.' %>">
+
+  <title><%= current_page.data.title %> :: Seu Salão a um toque de distância</title>
+
+</head>
