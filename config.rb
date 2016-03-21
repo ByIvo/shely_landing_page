@@ -78,6 +78,8 @@ configure :build do
   activate :smusher
 end
 
+
+
 # Livereload
 # Reload the browser automatically whenever files change
 # ----------------------------------------------
@@ -99,7 +101,6 @@ end
 # i18n
 # ----------------------------------------------
 activate :i18n, :mount_at_root => :'pt-BR'
-
 
 # Site Settings
 # ----------------------------------------------

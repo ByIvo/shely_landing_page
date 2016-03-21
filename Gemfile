@@ -24,3 +24,4 @@ gem 'middleman-smusher', '~> 3.0.0'
 gem "rack-contrib"
 
 gem 'bootstrap-sass', '~> 3.3.3'
+#To deploy on github
