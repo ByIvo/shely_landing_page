@@ -109,3 +109,9 @@ set :site_name, 'Shelly - Seu Salão a um toque de distância'
 set :site_description, 'Startup que conecta pessoas e salões de beleza'
 set :site_url, 'http://www.shellyapp.com.br'
 set :site_twitter, '@shellyapp'
+
+# github project pages deploy
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true # default: false
+end
