@@ -105,10 +105,10 @@ activate :i18n, :mount_at_root => :'pt-BR'
 # Site Settings
 # ----------------------------------------------
 #@google_analytics = ''
-set :site_name, 'Shelly - Seu Salão a um toque de distância'
+set :site_name, 'Shely - Seu Salão a um toque de distância'
 set :site_description, 'Startup que conecta pessoas e salões de beleza'
-set :site_url, 'http://www.shellyapp.com.br'
-set :site_twitter, '@shellyapp'
+set :site_url, 'http://www.Shelyapp.com.br'
+set :site_twitter, '@Shelyapp'
 
 # github project pages deploy
 activate :deploy do |deploy|
