@@ -140,11 +140,12 @@ a.button_transparent:hover{
   min-height: 90vh;
 }
 .second h1{
-  margin-top:90px;
+  margin-top:50px;
   font-weight:bold;
   color:#5a5a5a;
-  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  letter-spacing:0.12em;
+  font-family: 'Raleway', sans-serif;
 }
 .second h3{
   color: #A5A5A6;
@@ -225,12 +226,12 @@ a.button_blue:hover{
 }
 
 .third h1,.fifth h1{
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  margin: 20px 0 50px 0;
-  color: #5a5a5a;
-  font-family: 'Raleway', sans-serif;
+  margin-top:40px;
+  font-weight:bold;
+  color:#5a5a5a;
   text-transform: uppercase;
+  letter-spacing:0.12em;
+  font-family: 'Raleway', sans-serif;
 }
 .third h3{
   color: #A5A5A6;
@@ -324,125 +325,6 @@ a.button_blue:hover{
   }
 }
 
-/*----------------------------------SIXTH--------------------------------------------------------*/
-.sixth{
-  text-align:center;
-  background-image: linear-gradient(to bottom, rgba(74, 163, 223, 0.8) 0%, rgba(74, 163, 223, 0.8) 100%), url('/images/working-out.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 30% 30%;
-  padding:3%;
-  color: #fff;
-}
-.sixth h1{
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.2em;
-}
-.sixth img{
-  border-radius: 5px;
-  border: 2px solid #fff;
-}
-/*----------------------------------SEVENTH--------------------------------------------------------*/
-.seventh{
-  text-align:center;
-  background: #fff;
-  padding:3%;
-  color: #5a5a5a;
-}
-span.icon{
-  font-size: 80px;
-  color: #E91E63;
-}
-.seventh h1{
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.2em;
-}
-@media (max-width: 1000px) {
-  span.icon{
-    font-size:40px;
-  }
-}
-@media (max-width: 1000px) {
-  span.icon{
-    font-size:40px;
-  }
-}
-/*----------------------------------EIGHTH--------------------------------------------------------*/
-.eighth{
-  text-align:center;
-  display: none;
-  background: #fff;
-  padding:3%;
-  color: #5a5a5a;
-}
-.eighth h1{
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.2em;
-}
-.testimonials{
-  margin-top:50px;
-}
-.testimonial_img{
-  width: 100px;
-  border-radius: 50%;
-  border: 3px solid #4aa4df;
-}
-
-@media (max-width: 400px) {
-  .eighth{
-    display:none;
-  }
-}
-/*----------------------------------NINETH--------------------------------------------------------*/
-.nineth{
-  text-align:center;
-  background: #fff;
-  padding:3%;
-  color: #5a5a5a;
-}
-.nineth h1{
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.2em;
-  margin-bottom: 50px;
-}
-.contact_field{
-  border: 2px solid #efefef;
-  border-radius: 5px;
-  padding: 1%;
-  font-size: 20px;
-  outline: none;
-  transition: 0.2s all;
-}
-.contact_field:focus{
-  border:2px solid #E91E63;
-}
-input.button_blue{
-  margin-top: 10px;
-  color:#fff;
-}
-input.button_blue:hover{
-  background: #3d89b5;
-}
-
-@media (max-width: 780px) {
-  .nineth h1{
-    margin: 20px 0 20px 0;
-    font-size:20px;
-  }
-  .nineth h3{
-    font-size:15px;
-  }
-}
-
-@media (max-width: 400px) {
-  .nineth h1{
-    margin-top:30px;
-    font-size:20px;
-  }
-  .nineth h3{
-    font-size:15px;
-  }
-}
 
 /*----------------------------------FOOTER--------------------------------------------------------*/
 footer{
@@ -492,9 +374,11 @@ footer{
 /*----------------------------------FOOTER COPYRIGHT------------------------------------------------------*/
 .footer-copyright{
   background: #C51162;
-  padding: 1%;
+  padding: 0.5%;
   color: #fff;
+  font-size: 10px;
   font-family: 'Lato', sans-serif;
+  vertical-align: middle;
 }
 .footer-copyright a{
   color: #fff;
@@ -515,10 +399,44 @@ footer{
 }
 
 .form-control{
-  paddin: 30px;
-  border: none;
+  paddin: 5%;
+  border: 1px solid #E91E63;
   border-radius:5px;
   background: #fff;
   transition: 0.3s all;
   margin-bottom: 10px;
+}
+
+/*---------------------------SOS-----------------------------------*/
+.sos{
+  padding:3%;
+  background-image: url('/images/background_sos.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #2C3941;
+}
+
+.sos h1{
+  margin-top: 30px;
+  font-size:45px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing:0.12em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sos h3{
+  margin-top: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing:0.12em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sos p{
+  width: 50%;
+  color: #fff;
+  margin: 50px auto;
+  font-family: 'Raleway', sans-serif;
 }
