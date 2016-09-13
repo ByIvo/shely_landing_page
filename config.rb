@@ -40,6 +40,10 @@
 #   activate :livereload
 # end
 
+page "/about/*", :layout => "about_shely"
+page "/use_terms", :layout => "use_terms_shely.html"
+
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
